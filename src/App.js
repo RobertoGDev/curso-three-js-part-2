@@ -24,6 +24,7 @@ export class App {
 
 		// ## Light's config
 		this.renderer.physicallyCorrectLights = true;
+		this.renderer.shadowMap.enabled = true;
 
 		const controls = new OrbitControls(this.camera, this.container);
 

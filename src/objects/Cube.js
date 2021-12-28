@@ -10,5 +10,6 @@ export class Cube extends Mesh {
 			flatShading: true,
 			roughness: .5
 		});
+		
 	}
 }

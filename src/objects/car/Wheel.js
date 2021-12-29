@@ -5,7 +5,7 @@ class Wheel extends Mesh {
         super();
         this.material = new MeshStandardMaterial({
             color: new Color('dingray').convertSRGBToLinear(),
-            flatShading: true
+            flatShading: false
         })
         this.geometry = new CylinderBufferGeometry(.5, .5, .5);
         this.rotateZ(MathUtils.degToRad(90))
